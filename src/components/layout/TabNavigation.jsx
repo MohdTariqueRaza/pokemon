@@ -30,7 +30,7 @@ const TabNavigation = ({ activeTab, setActiveTab, collectionCount }) => {
           className="px-4 py-2 rounded-full font-semibold text-sm flex items-center gap-2 bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-md transition-all duration-300 cursor-pointer text-sm border-2 border-indigo-500"
           onClick={() => setActiveTab("collection")}
         >
-          📦 My Collection ({collectionCount > 0 && collectionCount})
+          📦 My Collection ({collectionCount > 0 ? collectionCount : 0})
         </button>
       ) : (
         <div className="p-[2px] rounded-full">
@@ -40,7 +40,7 @@ const TabNavigation = ({ activeTab, setActiveTab, collectionCount }) => {
           >
             <div className="flex items-center justify-center w-full h-full px-4 py-2 bg-white rounded-full">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500 font-semibold">
-                📦 My Collection ({collectionCount > 0 && collectionCount})
+                📦 My Collection ({collectionCount > 0 ? collectionCount : 0})
               </span>
             </div>
           </button>
