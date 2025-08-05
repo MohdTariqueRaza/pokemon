@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.type-normal {
+  @apply bg-[#A8A878];
+}
+.type-fire {
+  @apply bg-[#F08030];
+}
+.type-water {
+  @apply bg-[#6890F0];
+}
+.type-grass {
+  @apply bg-[#78C850];
+}
+.type-electric {
+  @apply bg-[#F8D030];
+}
+.type-ice {
+  @apply bg-[#98D8D8];
+}
+.type-fighting {
+  @apply bg-[#C03028];
+}
+.type-poison {
+  @apply bg-[#A040A0];
+}
+.type-ground {
+  @apply bg-[#E0C068];
+}
+.type-flying {
+  @apply bg-[#A890F0];
+}
+.type-psychic {
+  @apply bg-[#F85888];
+}
+.type-bug {
+  @apply bg-[#A8B820];
+}
+.type-rock {
+  @apply bg-[#B8A038];
+}
+.type-ghost {
+  @apply bg-[#705898];
+}
+.type-dark {
+  @apply bg-[#705848];
+}
+.type-dragon {
+  @apply bg-[#7038F8];
+}
+.type-steel {
+  @apply bg-[#B8B8D0];
+}
+.type-fairy {
+  @apply bg-[#EE99AC];
+}
